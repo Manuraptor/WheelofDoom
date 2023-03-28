@@ -1,0 +1,29 @@
+.imprincipal {
+    background-size: cover;
+ }
+
+.container2{
+display:flex;
+justify-content: left;
+align-items: center;
+grid-template-columns: auto;
+position:relative;
+
+}
+
+
+.botonlatigazo{
+
+    width:120px;
+    height:35px;
+    background-color:rgb(100, 111, 237);
+    margin-left: 20px;
+  
+    
+}
+
+.elementos{
+
+    position:absolute;
+}
+
