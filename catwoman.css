@@ -1,0 +1,72 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #131839;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    background-image: url(./gráficos/gotham.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.botonlatigazo {
+    width: 220px;
+    height: 50px;
+    background-color: rgb(100, 111, 237);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.elementos {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    row-gap: 100px;
+   
+}
+
+
+/*.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    position: relative;
+}
+
+.elementos {
+    position: absolute;
+}
+
+
+
+.container2 {
+   
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    align-content: space-between;
+    position: relative;
+}
+
+.elementos2 {
+    position: absolute;
+}
+
+.botonlluvia {
+    width: 220px;
+    height: 50px;
+    background-color: rgb(100, 111, 237);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}*/
