@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +5,15 @@
 }
 
 body {
-    
-    background-color: #131839;
+    position: relative;
     color: white;
     font-family: 'Inter', sans-serif;
     background-image: url(./gráficos/gotham.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+
+
 }
 
 
@@ -27,46 +26,33 @@ body {
 }
 
 .elementos {
-    display:flex;
+    position: absolute;
+    display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    row-gap: 100px;
-   
-}
-
-
-/*.container1 {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    position: relative;
+    row-gap: 100px;
+    margin-top: 280px;
+    margin-left: 250px;
+
 }
 
-.elementos {
-    position: absolute;
-}
-
-
-
-.container2 {
-   
+.container {
     display: flex;
-    justify-content: right;
-    align-items: end;
-    align-content: space-between;
-    position: relative;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-top: 20px;
+
 }
 
-.elementos2 {
-    position: absolute;
-}
+.botonselect {
 
-.botonlluvia {
-    width: 220px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     background-color: rgb(100, 111, 237);
     margin-right: 20px;
     margin-bottom: 20px;
-}*/
+
+}
+

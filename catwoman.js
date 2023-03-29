@@ -1,15 +1,17 @@
 function efectlatigazo() {
 
     document.getElementById("latigazo").play();
+    
 }
 
 
 
-/*function lluvia() {
+function lluvia() {
 
     document.getElementById("efecto").play();
 }
 
-function paralluvia() {
+
+/*function paralluvia() {
     document.getElementById("efecto").pause();
 }*/
