@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,10 @@
 
 body {
     position: relative;
-    color: white;
-    font-family: 'Inter', sans-serif;
+    color: red;
+    
+    font-family: 'BatmanForeverAlternate', sans-serif;
+                       
     background-image: url(./gráficos/gotham.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
