@@ -16,24 +16,29 @@
 
 
         <h1 class="textopresentancion">¿QUIÉN AYUDARÁ a CATWOMAN a SALVAR GOTHAM?</h1>
-        <div class="buttons">
-            <button class="botonselect" onclick="lluvia()">NOCTURNO</button>
-            <audio src="sonidos\rain-and-thunder-nature-sounds-7803.mp3" id="efecto"></audio>
 
-        </div>
 
         <div class="elementos">
 
 
 
-            <button class="botonlatigazo" onclick="efectlatigazo()">VOLUNTARIO</button>
+            <button class="botonlatigazo" onclick="efectlatigazo()"><video id="animacion">
+                    <source src="graficos\SwDx.mp4" type="video/mp4">
+            </button>
             <audio src="sonidos\latiquejido.mp3" id="latigazo"></audio>
             <h2 id="Hero">NOMBRE DEL ELEGIDO</h2>
             <h3 class="tenecesita">¡GOTHAM TE NECESITA!</h3>
         </div>
 
 
+
     </section>
+
+    <div class="buttons">
+        <button class="botonselect" onclick="lluvia()"><img class="nocturno" src="graficos\black-cat.jpg"></button>
+        <audio src="sonidos\rain-and-thunder-nature-sounds-7803.mp3" id="efecto"></audio>
+
+    </div>
 
     <script src="catwoman.js"></script>
 </body>

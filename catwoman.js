@@ -1,7 +1,8 @@
 function efectlatigazo() {
 
     document.getElementById("latigazo").play();
-    
+
+    document.getElementById("animacion").play();
 }
 
 
