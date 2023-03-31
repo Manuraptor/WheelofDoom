@@ -9,30 +9,21 @@
 body {
     position: relative;
     color: red;
-
     font-family: 'BatmanForeverAlternate', sans-serif;
-
-    background-image: url(./graficos/gotham.jpg);
+     background-image: url(./graficos/gotham.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
-
-
 }
 
-
 .botonlatigazo {
-
     width: 150px;
     height: 100px;
     margin-left: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
-
-    background-color: black;
+     background-color: black;
 }
 
 .elementos {
@@ -45,7 +36,6 @@ body {
     row-gap: 100px;
     margin-top: 280px;
     margin-left: 250px;
-
 }
 
 .container {
@@ -53,31 +43,70 @@ body {
     justify-content: space-between;
     margin-left: 200px;
     margin-top: 20px;
-
 }
 
-.botonselect {
 
+/*Modo noche*/
+
+.container-btn-mode{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid darkblue;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid darkblue;
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color:darkblue;
+    color:#ffcd5c !important;
+  }
+
+  .dark-mode h1, .dark-mode h2, .dark-mode h3{
+    color: brown;
+  }
+
+/*fin modo noche*/
+
+
+
+
+.botonselect {
     width: 122px;
     height: 62px;
     background-color: rgb(100, 111, 237);
     margin-right: 20px;
     margin-bottom: 20px;
     border: rgb(0, 128, 102) 1px solid;
-
 }
 
 #animacion {
-
     width: 150px;
     height: 100px;
 }
 
-
-
-
 .nocturno {
-
     width: 120px;
     height: 60px;
 }
@@ -89,5 +118,4 @@ body {
     margin-left: 20px;
     margin-top: 570px;
     background-color: darkgreen;
-
 }
