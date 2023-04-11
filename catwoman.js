@@ -40,3 +40,17 @@ function lluvia() {
 /*function paralluvia() {
     document.getElementById("efecto").pause();
 }*/
+
+function tema() {
+
+    var sonido2=document.getElementById("musiepica");
+
+
+    if (sonido2.paused) {
+        sonido2.play();
+        
+     } else {
+
+        sonido2.pause(); 
+}
+}
