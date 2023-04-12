@@ -1,116 +1,116 @@
-@import url('https://fonts.cdnfonts.com/css/batman-forever');
+@import url("https://fonts.cdnfonts.com/css/batman-forever");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    position: relative;
-    color: red;
-    font-family: 'BatmanForeverAlternate', sans-serif;
-     background-image: url(./graficos/gotham.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  position: relative;
+  color: red;
+  font-family: "BatmanForeverAlternate", sans-serif;
+  background-image: url(./graficos/gotham.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .botonlatigazo {
-    width: 150px;
-    height: 100px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-around;
-     background-color: black;
+  width: 150px;
+  height: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
 }
 
 .elementos {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    row-gap: 100px;
-    margin-top: 280px;
-    margin-left: 250px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  row-gap: 100px;
+  margin-top: 280px;
+  margin-left: 250px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 20px;
 }
 
-/*Modo noche*/
-.container-btn-mode{
-    position: absolute;
-    top:20px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 2;
-    font-size:0;
-  }
-  .btn-mode{
-    display: inline-block;
-    width: 50px;
-    height: 30px;
-    border:2px solid darkblue;
-    transition: background-color .5s;
-  }
-  .btn-mode i {
-    display: block;
-    font-size: 17px;
-    text-align: center;
-    line-height: 30px;
-  }
-  .btn-mode.sun{
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-right: 1px solid darkblue;
-  }
-  .btn-mode.moon{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  .active{
-    background-color:darkblue;
-    color:#ffcd5c !important;
-  }
+/*Modo nocturno*/
+.container-btn-mode {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 0;
+}
+.btn-mode {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  border: 2px solid darkblue;
+  transition: background-color 0.5s;
+}
+.btn-mode i {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+}
+.btn-mode.sun {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 1px solid darkblue;
+}
+.btn-mode.moon {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.active {
+  background-color: darkblue;
+  color: #ffcd5c !important;
+}
 
-  .dark-mode h1, .dark-mode h2, .dark-mode h3{
-    color: brown;
-  }
+.dark-mode h1,.dark-mode h2,.dark-mode h3 {
+  color: brown;
+}
 
-/*fin modo noche*/
+/*fin modo nocturno*/
 
 .botonselect {
-    width: 122px;
-    height: 62px;
-    background-color: rgb(100, 111, 237);
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border: rgb(0, 128, 102) 1px solid;
+  width: 122px;
+  height: 62px;
+  background-color: rgb(100, 111, 237);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: rgb(0, 128, 102) 1px solid;
 }
 
 #animacion {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
 }
 
 .nocturno {
-    width: 120px;
-    height: 60px;
+  width: 120px;
+  height: 60px;
 }
 
 .buttons {
-    padding: 1px;
-    width: 120px;
-    height: 60px;
-    margin-left: 20px;
-    margin-top: 570px;
-    background-color: darkgreen;
+  padding: 1px;
+  width: 120px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 570px;
+  background-color: darkgreen;
 }

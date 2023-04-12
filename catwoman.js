@@ -1,40 +1,37 @@
 function efectlatigazo() {
+  document.getElementById("latigazo").play();
 
-    document.getElementById("latigazo").play();
-
-    document.getElementById("animacion").play();
+  document.getElementById("animacion").play();
 }
 
-
-/* Modo noche
+/* Modo nocturno
 
 Si clicamos en el botón del sol, borrarémos la clase css dark-mode del section 
 con id container y se aplicará el estilo active al sol*/
-document.getElementById('id-sun').onclick = function(){
-    document.getElementById('container').classList.remove('dark-mode')
-    document.getElementById('id-moon').classList.remove('active')
-    this.classList.add('active')
+document.getElementById("id-sun").onclick = function () {
+  document.getElementById("container").classList.remove("dark-mode");
+  document.getElementById("id-moon").classList.remove("active");
+  this.classList.add("active");
+  document.body.style.backgroundImage = "url('./graficos/gotham.jpg')";
 }
-  /*Si clicamos en el botón de la luna, añadiremos la clase css dark-mode del section 
+
+/*Si clicamos en el botón de la luna, añadiremos la clase css dark-mode del section 
   con id container y se aplicará el estilo active a la luna*/
-  document.getElementById('id-moon').onclick = function(){
-    document.getElementById('container').classList.add('dark-mode')
-    document.getElementById('id-sun').classList.remove('active')
-    this.classList.add('active')
+document.getElementById("id-moon").onclick = function () {
+  document.getElementById("container").classList.add("dark-mode");
+  document.getElementById("id-sun").classList.remove("active");
+  this.classList.add("active");
+  document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./graficos/gotham.jpg')";
 }
 
 function lluvia() {
+  var sonido = document.getElementById("efecto");
 
-    var sonido=document.getElementById("efecto");
-    
-    
-        if (sonido.paused) {
-            sonido.play();
-            
-         } else {
-    
-            sonido.pause(); 
-    }
+  if (sonido.paused) {
+    sonido.play();
+  } else {
+    sonido.pause();
+  }
 }
 
 /*function paralluvia() {
@@ -42,15 +39,11 @@ function lluvia() {
 }*/
 
 function tema() {
+  var sonido2 = document.getElementById("musiepica");
 
-    var sonido2=document.getElementById("musiepica");
-
-
-    if (sonido2.paused) {
-        sonido2.play();
-        
-     } else {
-
-        sonido2.pause(); 
-}
+  if (sonido2.paused) {
+    sonido2.play();
+  } else {
+    sonido2.pause();
+  }
 }
