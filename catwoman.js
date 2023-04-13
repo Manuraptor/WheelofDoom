@@ -48,21 +48,24 @@ function tema() {
   }
 }
 
-  
+let grupo = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
+let listaOriginal = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
+
 function elegir() {
 
-  let grupo = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
-  let grupo2 = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
   let azar = Math.floor(Math.random() * grupo.length);
-
   let elegido = grupo[azar]
 
   document.getElementById("hero").innerHTML = elegido;
 
   grupo.splice(azar, 1);
 
-  if (grupo.length = 0) {
+  if (grupo.length === 0) {
 
-    grupo = grupo2;
+    document.getElementById("hero").innerHTML = "¡MIAU! ¡¡¡NOS QUEDAMOS SIN HÉROES!!!";
+
+
+    grupo = listaOriginal.slice();
+    
   }
 }
