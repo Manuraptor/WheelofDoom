@@ -8,7 +8,7 @@
 
 body {
   position: relative;
-  color: red;
+  color: rgb(191, 0, 255);
   font-family: "BatmanForeverAlternate", sans-serif;
   background-image: url(./graficos/gotham.jpg);
   background-size: 100% 100%;
@@ -54,6 +54,7 @@ body {
   z-index: 2;
   font-size: 0;
 }
+
 .btn-mode {
   display: inline-block;
   width: 50px;
@@ -61,27 +62,33 @@ body {
   border: 2px solid darkblue;
   transition: background-color 0.5s;
 }
+
 .btn-mode i {
   display: block;
   font-size: 17px;
   text-align: center;
   line-height: 30px;
 }
+
 .btn-mode.sun {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border-right: 1px solid darkblue;
 }
+
 .btn-mode.moon {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
 .active {
   background-color: darkblue;
   color: #ffcd5c !important;
 }
 
-.dark-mode h1,.dark-mode h2,.dark-mode h3 {
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
   color: brown;
 }
 
@@ -101,6 +108,13 @@ body {
   height: 100px;
 }
 
+#animacion2 {
+  width: 150px;
+  height: 100px;
+}
+
+
+
 .nocturno {
   width: 120px;
   height: 60px;
@@ -113,4 +127,17 @@ body {
   margin-left: 20px;
   margin-top: 570px;
   background-color: darkgreen;
+}
+
+
+#hero{
+
+  color:rgb(226, 171, 43);
+  font-size: 30px;
+
+}
+
+.textopresentacion {
+
+  font-size: 25px;
 }

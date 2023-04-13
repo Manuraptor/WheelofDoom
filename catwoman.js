@@ -47,3 +47,22 @@ function tema() {
     sonido2.pause();
   }
 }
+
+  
+function elegir() {
+
+  let grupo = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
+  let grupo2 = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "ISiokhina", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
+  let azar = Math.floor(Math.random() * grupo.length);
+
+  let elegido = grupo[azar]
+
+  document.getElementById("hero").innerHTML = elegido;
+
+  grupo.splice(azar, 1);
+
+  if (grupo.length = 0) {
+
+    grupo = grupo2;
+  }
+}

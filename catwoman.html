@@ -15,20 +15,23 @@
     <section id="container">
 
 
-        <h1 class="textopresentancion">¿QUIÉN AYUDARÁ a CATWOMAN a SALVAR GOTHAM?</h1>
+        <p class="textopresentacion">¿QUIÉN AYUDARÁ a CATWOMAN a SALVAR GOTHAM?</p>
 
 
         <div class="elementos">
 
 
 
-           <button class="botonlatigazo" onclick="efectlatigazo()" onmouseout="tema()"><video id="animacion">
+            <button class="botonlatigazo" onclick="efectlatigazo(), elegir()" onmouseout="tema()" ><video
+                    id="animacion">
                     <source src="graficos\SwDx.mp4" type="video/mp4">
             </button>
+
             <audio src="sonidos\latiquejido.mp3" id="latigazo"></audio>
             <audio src="sonidos\inspiring-grand-opening-143606.mp3" autoplay id="musiepica"></audio>
 
-            <h2 id="Hero">NOMBRE DEL ELEGIDO</h2>
+            <p id="hero">NOMBRE DEL ELEGIDO</p>
+           
             <h3 class="tenecesita">¡GOTHAM TE NECESITA!</h3>
         </div>
 
@@ -38,12 +41,13 @@
     <!--modo noche-->
     <div class="container-btn-mode">
         <div id="id-sun" class="btn-mode sun active">
-           <i class="fas fa-sun"></i>
+            <i class="fas fa-sun"></i>
         </div>
         <div id="id-moon" class="btn-mode moon">
-           <i class="fas fa-moon"></i>
+            <i class="fas fa-moon"></i>
         </div>
-     </div>
+        
+    </div>
     <!-- fin modo noche-->
 
     <div class="buttons">
