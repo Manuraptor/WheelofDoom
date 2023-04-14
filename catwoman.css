@@ -137,7 +137,7 @@ font-weight: 800;
 
 #hero{
 
-  color:rgb(215, 218, 32);
+  color: yellow;
   font-size: 40px;
   animation: wobble 2s;
 }
