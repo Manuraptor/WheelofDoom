@@ -48,8 +48,8 @@ function tema() {
   }
 }
 
-let grupo = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "Irina S", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
-let listaOriginal = ["Maribel", "Ikram", "Irina", "Cinthia", "Minerva", "Jezabel", "Irina S", "Telma", "Tatiana", "Jhoana", "Nelly", "Nadia", "Halima", "Manuel"];
+let grupo = ["Maribel", "&nbsp;Ikram", "&nbsp;Irina", "Cinthia", "Minerva", "Jezabel", "Irina S", "&nbsp;Telma", "Tatiana", "Jhoana", "&nbsp;Nelly", "&nbsp;Nadia", "Halima", "Manuel"];
+let listaOriginal = ["Maribel", "&nbsp;Ikram", "&nbsp;Irina", "Cinthia", "Minerva", "Jezabel", "Irina S", "&nbsp;Telma", "Tatiana", "Jhoana", "&nbsp;Nelly", "&nbsp;Nadia", "Halima", "Manuel"];
 
 function elegir() {
 
@@ -60,7 +60,7 @@ function elegir() {
 
   if (grupo.length === 0) {
 
-    document.getElementById("hero").innerHTML = "¡MIAU! ";
+    document.getElementById("hero").innerHTML = "&nbsp;&nbsp;¡MIAU! ";
 
     grupo = listaOriginal.slice();
     
