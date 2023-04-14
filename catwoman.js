@@ -62,10 +62,12 @@ function elegir() {
 
   if (grupo.length === 0) {
 
-    document.getElementById("hero").innerHTML = "¡MIAU! ¡¡¡NOS QUEDAMOS SIN HÉROES!!!";
+    document.getElementById("hero").innerHTML = "¡MIAU! <br> ¡¡¡NOS <br> QUEDAMOS <br> SIN <br> HÉROES!!!";
 
 
     grupo = listaOriginal.slice();
     
   }
 }
+
+

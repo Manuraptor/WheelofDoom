@@ -8,41 +8,82 @@
 
 body {
   position: relative;
-  color: rgb(191, 0, 255);
+  color: red;
   font-family: "BatmanForeverAlternate", sans-serif;
   background-image: url(./graficos/gotham.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.container {
+  width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header-main {
+  display: flex;
+ justify-content: space-between;
+ width: 100%;
+  height: 60px;
+  align-items: center;
 
-.botonlatigazo {
+}
+
+.btn-musica {
+  position: absolute;
+ background-color: black;
+ color: red;
+  border: none;
+  border-radius: 20px;
+ width: 80px;
+ height: 30px;
+ }
+
+.btn-latigo {
   width: 150px;
   height: 100px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
+ border-radius: 50%;
   background-color: black;
 }
 
-.elementos {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  row-gap: 100px;
-  margin-top: 280px;
-  margin-left: 250px;
+.botonlatigazo {
+ border: none;
+ border-radius: 50%;
+  background-color: black;
+  filter: drop-shadow(0px 0px 100px rgba(228, 14, 14, 0.42));
 }
 
-.container {
+
+#animacion {
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 80px;
+ font-weight: 800;
+
+}
+
+
+.heading {
+  animation: wobble 2s;
+}
+
+.container-lista {
+  margin-left: 100px;
   display: flex;
-  justify-content: space-between;
-  margin-left: 200px;
-  margin-top: 20px;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+}
+
+h3 {
+  
+  margin-top: 140px;
+text-align: center;
 }
 
 /*Modo nocturno*/
@@ -94,50 +135,10 @@ body {
 
 /*fin modo nocturno*/
 
-.botonselect {
-  width: 122px;
-  height: 62px;
-  background-color: rgb(100, 111, 237);
-  margin-right: 20px;
-  margin-bottom: 20px;
-  border: rgb(0, 128, 102) 1px solid;
-}
-
-#animacion {
-  width: 150px;
-  height: 100px;
-}
-
-#animacion2 {
-  width: 150px;
-  height: 100px;
-}
-
-
-
-.nocturno {
-  width: 120px;
-  height: 60px;
-}
-
-.buttons {
-  padding: 1px;
-  width: 120px;
-  height: 60px;
-  margin-left: 20px;
-  margin-top: 570px;
-  background-color: darkgreen;
-}
-
-
 #hero{
 
-  color:rgb(226, 171, 43);
-  font-size: 30px;
-
+  color:goldenrod;
+  font-size: 50px;
+  animation: wobble 2s;
 }
 
-.textopresentacion {
-
-  font-size: 25px;
-}
