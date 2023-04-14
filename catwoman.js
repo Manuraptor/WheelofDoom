@@ -58,16 +58,15 @@ function elegir() {
 
   document.getElementById("hero").innerHTML = elegido;
 
-  grupo.splice(azar, 1);
-
   if (grupo.length === 0) {
 
     document.getElementById("hero").innerHTML = "¡MIAU! ";
 
-
     grupo = listaOriginal.slice();
     
   }
+  
+  grupo.splice(azar, 1);
 }
 
 
