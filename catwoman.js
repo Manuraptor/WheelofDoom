@@ -61,6 +61,7 @@ function elegir() {
   if (grupo.length === 0) {
 
     document.getElementById("hero").innerHTML = "&nbsp;&nbsp;¡MIAU! ";
+    miau()
 
     grupo = listaOriginal.slice();
     
@@ -69,4 +70,8 @@ function elegir() {
   grupo.splice(azar, 1);
 }
 
+function miau() {
+  var meow=document.getElementById("maullido");
+  meow.play();
+}
 
